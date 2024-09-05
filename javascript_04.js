@@ -11,6 +11,7 @@ for (i = 0; i < 5; i++) {
     salario.push(parseFloat(prompt(`Informe o salário da ${i + 1}° pessoa: `)))
     inss[i] = salario[i] - ((salario[i] * 12) / 100)
 
+    // "varialvel + [i]" puxa o valor já inserido no vetor. 
 }
 
 for(i = 0; i < 5; i++){
